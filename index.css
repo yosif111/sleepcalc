@@ -1,0 +1,45 @@
+body{
+  background: url(nathan-anderson-218687.jpg);
+  padding-top: 70px;
+  font-family: 'Cairo', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html{
+  height: 100;
+}
+.jumbotron {
+  background:  rgba(0,0,0,0);
+}
+
+.jumbotron h1 {
+  color:#4abfec;
+  text-align: center;
+}
+.sel {
+    background-color: rgba(0,0,0,0);
+    color:#4abfec;
+}
+label {
+    color: #4abfec;
+}
+ #btn{
+   color:#4abfec;
+   background: rgba(0,0,0,0);
+   width: 15%;
+   margin-top: 2.5%;
+   margin-left: 40%;
+ }
+#head {
+  color:#4aec5f;
+  text-align: center;
+    font-size: 50px;
+}
+#content{
+    text-align: center;
+}
+strong {
+
+  color: #4aec5f;
+  font-size: 30px;
+}

@@ -19,28 +19,54 @@ html{
 .sel {
     background-color: rgba(0,0,0,0);
     color:#4abfec;
+
+
 }
-label {
-    color: #4abfec;
+option {
+    text-align:center;
 }
  #btn{
+   text-align: center;
    color:#4abfec;
    background: rgba(0,0,0,0);
-   width: 15%;
-   margin-top: 2.5%;
-   margin-left: 40%;
+   width: 100%;
+   margin-top: 7%;
+   /*margin-left: 40%;*/
  }
 #head {
   color:#4aec5f;
   text-align: center;
     font-size: 30px;
 }
-#content{
+@media only screen and (max-width: 600px) {
+  #head {
+    color:#4aec5f;
     text-align: center;
+      font-size: 21px;
+  }
+}
+#res1,#res2,#res3,#res4{
+  text-align: center;
+
 }
 strong {
   font-family: 'Raleway', sans-serif;
-
+    text-align: center;
   color: #4aec5f;
-  font-size: 30px;
+  font-size: 220%;
+
+}
+@media only screen and (max-width: 360px) {
+  strong {
+    font-family: 'Raleway', sans-serif;
+      text-align: center;
+    color: #4aec5f;
+    font-size:150%;
+
+  }
+  #head {
+    color:#4aec5f;
+    text-align: center;
+      font-size: 17px;
+  }
 }

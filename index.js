@@ -78,7 +78,10 @@ show(newArr);
 }
 function show(newArr){
 
-var x= document.getElementById("head").innerHTML=":لازم تنام في احدى الاوقات التالية";
-var y= document.getElementById("content");
-y.innerHTML=   newArr[3] + "   ,   " +newArr[2] + "   ,   " + newArr[1]+ "   ,   " + newArr[0];
+var x= document.getElementById("head").innerHTML="لازم تنام في احدى الاوقات التالية";
+var res1= document.getElementById("res1").innerHTML = newArr[0];
+var res2= document.getElementById("res2").innerHTML = newArr[1];
+var res3= document.getElementById("res3").innerHTML = newArr[2];
+var res4= document.getElementById("res4").innerHTML = newArr[3];
+
 }

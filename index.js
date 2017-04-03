@@ -2,7 +2,7 @@
 var timeArr = new Array();
 var firstTime = true;
 
-  alert("gg");
+
 function calculate(){
 
   var hour = document.getElementById("hours").value;

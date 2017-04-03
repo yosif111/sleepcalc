@@ -69,6 +69,8 @@ function render(hourCopy,timeCopy){
   timeArr[j].hour = "12";
   if(timeArr[j].minute == "0")
   timeArr[j].minute = "00";
+  if(timeArr[j].minute == "5")
+  timeArr[j].minute = "05";
   newArr.push("<strong>" +timeArr[j].hour+":"+timeArr[j].minute+" " + timeArr[j].time + "</strong>");
 
 }

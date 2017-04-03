@@ -4,7 +4,10 @@ var firstTime = true;
 
 
 function calculate(){
-
+if (timeArr.length > 0) {
+  timeArr =[];
+  firstTime = true;
+}
   var hour = document.getElementById("hours").value;
   var minute = document.getElementById("minutes").value;
   var time = document.getElementById("time").value;

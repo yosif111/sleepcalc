@@ -39,6 +39,7 @@ label {
     text-align: center;
 }
 strong {
+  font-family: 'Raleway', sans-serif;
 
   color: #4aec5f;
   font-size: 30px;
